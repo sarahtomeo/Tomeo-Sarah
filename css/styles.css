@@ -1,0 +1,102 @@
+.main {
+    width: 800px;
+    height: 700px;
+    margin: auto;
+    background: black ;
+    padding-top: 20px;
+}
+
+.mainBorder {
+    width: 750px;
+    margin: auto;
+    height: 675px;
+    border: 2px solid white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    
+}
+
+.title {
+   font-size: 2.8em;
+   color: white;
+   text-align: center;
+   font-family:georgia;
+   padding: 15px
+}
+
+.whiteStrip {
+    background-color: white;
+    padding: 10px;
+    height: 30px;
+    font-family: arial;
+}
+
+.textStrip {
+    color: gray;
+    text-align: left, center;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.gridOne {
+    display: grid;
+    font-family: arial;
+    grid-template-columns: 15% 20% 30% 20% 15%;
+    padding: 20px;
+}
+
+.gridOneTop {
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.photoOne {
+    width: 130px;
+    margin: 10px;
+    border: 1px solid white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: top;
+}
+
+.whiteText {
+    color: white;
+    padding:10px;
+
+}
+
+.calories {
+    border: 1px solid white;
+    color: white;
+    padding: 7px;
+}
+
+.table {
+    border: 1px solid white;
+    color: white;
+
+}
+
+.outlineTable {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border: 3px solid white;
+    color: white;
+    width:450px;
+    height: 150px;
+    margin:auto;
+    margin-top: 30px;
+    padding: 3px;
+    
+}
+
+.outlineInnerTable {
+    border: 3px solid white;
+    color: white;
+    width: 210px;
+    height: 143px;
+    text-align: center;
+}
